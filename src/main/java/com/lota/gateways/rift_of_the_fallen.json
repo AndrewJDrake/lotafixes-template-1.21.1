@@ -1,0 +1,53 @@
+{
+  "size": "small",
+  "color": "#5A1E1E",
+  "waves": [
+    {
+      "entities": [
+        {
+          "entity": "minecraft:zombie",
+          "count": 6,
+          "modifiers": [{ "type": "gateways:gear_set", "gear_set": "sota:fallen_guard_shield" }]
+        },
+        {
+          "entity": "minecraft:zombie",
+          "count": 2,
+          "modifiers": [{ "type": "gateways:gear_set", "gear_set": "sota:fallen_guard_bruiser" }]
+        }
+      ],
+      "rewards": [
+        { "type": "gateways:experience", "experience": 20 }
+      ],
+      "max_wave_time": 2400,
+      "setup_time": 100
+    },
+    {
+      "entities": [
+        { "entity": "enderzoology:fallen_knight", "count": 3 },
+        { "entity": "born_in_chaos_v1:bonescaller", "count": 1 }
+      ],
+      "rewards": [
+        { "type": "gateways:experience", "experience": 40 },
+        { "type": "gateways:stack", "stack": { "id": "minecraft:iron_ingot", "count": 2 } },
+        { "type": "gateways:stack", "stack": { "id": "minecraft:ender_pearl", "count": 1 } }
+      ],
+      "max_wave_time": 2400,
+      "setup_time": 100
+    }
+  ],
+  "rewards": [
+    { "type": "gateways:experience", "experience": 100 },
+    { "type": "gateways:summon", "entity": { "entity": "born_in_chaos_v1:fallen_chaos_knight", "count": 1 } }
+  ],
+  "failures": [
+    {
+      "type": "gateways:command",
+      "command": "summon item ~ ~1 ~ {Item:{id:\"gateways:gate_pearl\",count:1,components:{\"gateways:gateway\":\"sota:rift_of_the_fallen\"}}}",
+      "desc": "The Pearl returns with the Challenge unfinished, alongside a curse."
+    },
+    { "type": "gateways:mob_effect", "effect": "born_in_chaos_v1:cursed_mark", "duration": 600 }
+  ],
+  "rules": {
+    "leash_range": 32
+  }
+}
