@@ -1,0 +1,35 @@
+{
+  "weight":0,
+  "quality":0,
+  "mainhands":[
+    {"weight": 4, "stack": { "id":"minecraft:stone_sword"}, "drop_chance":0},
+    {"weight": 1, "stack": { "id": "simplyswords:stone_longsword"}, "drop_chance":0},
+    {"weight": 2, "stack": { "id":"minecraft:stone_axe"}, "drop_chance":0},
+    {"weight": 1, "stack": { "id": "simplyswords:stone_spear"}, "drop_chance":0}
+  ],
+  "offhands":[
+    {"weight": 2, "stack": {"id":"minecraft:shield"}, "drop_chance":0},
+    {"weight": 10, "stack": {"id":"minecraft:air"}, "drop_chance":0}
+    
+  ],
+  "helmets":[
+    {"weight": 10, "stack": {"id":"minecraft:leather_helmet"}, "drop_chance":0},
+    {"weight": 4, "stack": {"id":"minecraft:chainmail_helmet"}, "drop_chance":0},
+    {"weight": 6, "stack": {"id":"minecraft:air"}, "drop_chance":0}
+  ],
+  "chestplates":[
+    {"weight": 9, "stack": {"id":"minecraft:leather_chestplate"}, "drop_chance":0},
+    {"weight": 1, "stack": {"id":"minecraft:chainmail_chestplate"}, "drop_chance":0}
+  ],
+  "leggings":[
+    {"weight": 10, "stack": {"id":"minecraft:leather_leggings"}, "drop_chance":0},
+    {"weight": 1, "stack": {"id": "minecraft:chainmail_leggings"}, "drop_chance":0},
+    {"weight": 9, "stack": {"id":"minecraft:air"}, "drop_chance":0}
+  ],
+  "boots":[
+    {"weight": 10, "stack": {"id":"minecraft:leather_boots"}, "drop_chance":0},
+    {"weight": 3, "stack": {"id":"minecraft:chainmail_boots"}, "drop_chance":0},
+    {"weight": 7, "stack": {"id":"minecraft:air"}, "drop_chance":0}
+  ],
+  "tags":["lota:fallen_guard"]
+}

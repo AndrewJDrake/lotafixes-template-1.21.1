@@ -31,5 +31,5 @@
     {"weight": 3, "stack": {"id":"minecraft:chainmail_boots"}, "drop_chance":0},
     {"weight": 1, "stack": {"id":"minecraft:iron_boots"}, "drop_chance":0}
   ],
-  "tags":["sota:fallen_guard"]
+  "tags":["lota:fallen_guard"]
 }

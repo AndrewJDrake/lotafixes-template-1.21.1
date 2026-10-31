@@ -1,0 +1,37 @@
+{
+  "weight":0,
+  "quality":0,
+  "mainhands":[
+    {"weight": 4, "stack": { "id":"minecraft:bow"}, "drop_chance":0}
+  ],
+  "offhands":[    
+    {
+      "weight": 1,
+      "stack": {
+        "id": "minecraft:tipped_arrow",
+        "components": {
+          "minecraft:potion_contents": {
+            "custom_color": 3484199,
+            "custom_effects": [{ "id": "minecraft:wither", "duration": 800, "amplifier": 0 }]
+          },
+          "minecraft:item_name": "\"Wither Arrow\""
+        }
+      },
+      "drop_chance": 0.5
+      }
+  ],
+  "helmets":[
+    {"weight": 1, "stack": {"id":"candlelight:flower_crown"}, "drop_chance":0}
+
+  ],
+  "chestplates":[
+    {"weight": 10, "stack": {"id":"born_in_chaos_v1:nightmare_mantleofthe_night_chestplate"}, "drop_chance":0}
+  ],
+  "leggings":[
+    {"weight": 10, "stack": {"id":"born_in_chaos_v1:nightmare_mantleofthe_night_leggings"}, "drop_chance":0}
+  ],
+  "boots":[
+    {"weight": 10, "stack": {"id":"born_in_chaos_v1:nightmare_mantleofthe_night_boots"}, "drop_chance":0}
+  ],
+  "tags":["lota:lifestealer_cult"]
+}

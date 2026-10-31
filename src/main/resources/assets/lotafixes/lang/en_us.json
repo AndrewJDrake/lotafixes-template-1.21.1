@@ -1,13 +1,3 @@
 {
-  "itemGroup.lotafixes": "LotA Fixes",
-  "block.lotafixes.example_block": "Example Block",
-  "item.lotafixes.example_item": "Example Item",
-
-  "lotafixes.configuration.title": "LotAFixes Configs",
-  "lotafixes.configuration.section.lotafixes.common.toml": "LotAFixes Configs",
-  "lotafixes.configuration.section.lotafixes.common.toml.title": "LotAFixes Configs",
-  "lotafixes.configuration.items": "Item List",
-  "lotafixes.configuration.logDirtBlock": "Log Dirt Block",
-  "lotafixes.configuration.magicNumberIntroduction": "Magic Number Text",
-  "lotafixes.configuration.magicNumber": "Magic Number"
+  
 }

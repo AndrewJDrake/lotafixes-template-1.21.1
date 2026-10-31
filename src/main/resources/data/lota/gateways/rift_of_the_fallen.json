@@ -1,0 +1,106 @@
+{
+  "size": "small",
+  "color": "#5A1E1E",
+  "waves": [
+    {
+      "entities": [
+        {
+          "entity": "minecraft:zombie",
+          "count": 10,
+          "modifiers": [{ "type": "gateways:gear_set", "gear_set": "lota:fallen_guard_recruit" }]
+        }
+      ],
+      "rewards": [
+        { "type": "gateways:experience", "experience": 20 },
+        { "type": "gateways:entity_loot", "entity": "minecraft:zombie", "rolls": 10 }
+      ],
+      "max_wave_time": 2400,
+      "setup_time": 100
+    },
+    {
+      "entities": [
+        {
+          "entity": "minecraft:zombie",
+          "count": 8,
+          "modifiers": [{ "type": "gateways:gear_set", "gear_set": "lota:fallen_guard_shield" }]
+        },
+        {
+          "entity": "born_in_chaos_v1:door_knight",
+          "count": 3
+        }
+      ],
+      "rewards": [
+        { "type": "gateways:experience", "experience": 40 },
+        { "type": "gateways:stack", "stack": { "id": "born_in_chaos_v1:pieceofdarkmetal", "count": 2 } }
+      ],
+      "max_wave_time": 2400,
+      "setup_time": 100
+    },
+    {
+      "entities": [
+        {
+          "entity": "minecraft:zombie",
+          "count": 4,
+          "modifiers": [{ "type": "gateways:gear_set", "gear_set": "lota:fallen_guard_shield" }]
+        },
+        {
+          "entity": "minecraft:zombie",
+          "count": 4,
+          "modifiers": [{ "type": "gateways:gear_set", "gear_set": "lota:fallen_guard_bruiser" }]
+        },
+        { "entity": "born_in_chaos_v1:door_knight", "count": 1 },
+        { "entity": "born_in_chaos_v1:spiritof_chaos", "count": 2}
+      ],
+      "rewards": [
+        { "type": "gateways:experience", "experience": 60 },
+        { "type": "gateways:stack", "stack": { "id": "born_in_chaos_v1:pileof_dark_metal", "count": 1 } }
+      ],
+      "max_wave_time": 2400,
+      "setup_time": 100
+    },
+    {
+      "entities": [
+        { "entity": "enderzoology:fallen_knight", "count": 5 },
+        { "entity": "born_in_chaos_v1:skeleton_thrasher", "count": 2 },
+        { "entity": "born_in_chaos_v1:bonescaller", "count": 1 }
+      ],
+      "rewards": [
+        { "type": "gateways:experience", "experience": 80 },
+        { "type": "gateways:stack", "stack": { "id": "born_in_chaos_v1:pileof_dark_metal", "count": 1 } }
+      ],
+      "max_wave_time": 2400,
+      "setup_time": 100
+    },
+    {
+      "entities": [
+        { "entity": "born_in_chaos_v1:zombie_bruiser", "count": 2 },
+        { "entity": "born_in_chaos_v1:skeleton_thrasher", "count": 2 },
+        { "entity": "enderzoology:fallen_knight", "count": 2 },
+        { "entity": "born_in_chaos_v1:spiritof_chaos", "count": 1}
+      ],
+      "rewards": [
+        { "type": "gateways:experience", "experience": 100 },
+        { "type": "gateways:stack", "stack": { "id": "born_in_chaos_v1:dark_metal_ingot", "count": 1 } }
+      ],
+      "max_wave_time": 2400,
+      "setup_time": 100
+    }
+  ],
+  "rewards": [
+    { "type": "gateways:stack", "stack": { "id": "minecraft:ender_pearl", "count": 1 } },
+    { "type": "gateways:summon", "entity": { "entity": "born_in_chaos_v1:fallen_chaos_knight", "count": 1 } }
+  ],
+  "failures": [
+    {
+      "type": "gateways:command",
+      "command": "summon item ~ ~1 ~ {Item:{id:\"gateways:gate_pearl\",count:1,components:{\"gateways:gateway\":\"lota:rift_of_the_fallen\"}}}",
+      "desc": "lota.rift_of_the_fallen.fail.returned"
+    },
+    { "type": "gateways:mob_effect", "effect": "born_in_chaos_v1:cursed_mark", "duration": 600 }
+  ],
+  "rules": {
+    "leash_range": 32,
+    "allow_discarding": true,
+    "requires_nearby_players": true
+  }
+}
