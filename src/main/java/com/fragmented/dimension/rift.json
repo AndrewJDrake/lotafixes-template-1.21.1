@@ -1,0 +1,19 @@
+{
+  "neoforge:conditions": [
+    { "type": "neoforge:mod_loaded", "modid": "fragmented" },
+    { "type": "neoforge:mod_loaded", "modid": "dimensional_tears" }
+  ],
+  "type": "fragmented:rift",
+  "generator": {
+    "type": "minecraft:flat",
+    "settings": {
+      "biome": "fragmented:rift",
+      "lakes": false,
+      "features": false,
+      "layers": [
+        { "block": "dimensional_tears:dimensional_tears", "height": 2 }
+      ],
+      "structure_overrides": []
+    }
+  }
+}
