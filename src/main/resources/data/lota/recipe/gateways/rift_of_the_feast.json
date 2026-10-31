@@ -1,0 +1,12 @@
+{
+  "type": "gateways:gate_recipe",
+  "pattern": [" S ", "WPB", " S "],
+  "key": {
+    "S": { "item": "born_in_chaos_v1:seedof_chaos" },
+    "W": { "item": "eternalnether:withered_bone"},
+    "B": { "item": "minecraft:bone" },
+    "P": { "item": "minecraft:ender_pearl" }
+  },
+  "result": { "id": "gateways:gate_pearl" },
+  "gateway": "lota:rift_of_the_feast"
+}

@@ -1,0 +1,37 @@
+{
+  "weight":0,
+  "quality":0,
+  "mainhands":[
+    {"weight": 1, "stack": { "id":"aether:candy_cane_sword"}, "drop_chance":0},
+    {"weight": 7, "stack": { "id":"minecraft:coal"}, "drop_chance":0},
+    {"weight": 1, "stack": { "id":"minecraft:wooden_sword"}, "drop_chance":0},
+    {"weight": 1, "stack": { "id":"minecraft:stick"}, "drop_chance":0},
+    {"weight": 1, "stack": { "id":"minecraft:wooden_spear"}, "drop_chance":0}
+  ],
+  "offhands":[
+    {"weight": 1, "stack": {"id":"minecraft:coal"}, "drop_chance":1},
+    {"weight": 1, "stack": {"id":"create_confectionery:bar_of_black_chocolate"}, "drop_chance":1},
+    {"weight": 1, "stack": {"id":"create_confectionery:bar_of_caramel"}, "drop_chance":1},
+    {"weight": 1, "stack": {"id":"create_confectionery:bar_of_white_chocolate"}, "drop_chance":1},
+    {"weight": 1, "stack": {"id":"create_confectionery:candy_cane"}, "drop_chance":1},
+    {"weight": 1, "stack": {"id":"create_confectionery:gingerbread"}, "drop_chance":1},
+    {"weight": 1, "stack": {"id":"create_confectionery:honey_candy"}, "drop_chance":1},
+    {"weight": 10, "stack": {"id":"minecraft:air"}, "drop_chance":0}
+    
+  ],
+  "helmets":[
+    {"weight": 1, "stack": {"id":"frostiful:fur_helmet"}, "drop_chance":0},
+    {"weight": 1, "stack": {"id":"minecraft:air"}, "drop_chance":0}
+  ],
+  "chestplates":[
+    {"weight": 10, "stack": {"id":"frostiful:fur_chestplate"}, "drop_chance":0}
+  ],
+  "leggings":[
+    {"weight": 10, "stack": {"id":"frostiful:fur_leggings"}, "drop_chance":0}
+  ],
+  "boots":[
+    {"weight": 2, "stack": {"id":"frostiful:fur_boots"}, "drop_chance":0},
+    {"weight": 1, "stack": {"id":"minecraft:air"}, "drop_chance":0}
+  ],
+  "tags":["lota:krampus_captives"]
+}

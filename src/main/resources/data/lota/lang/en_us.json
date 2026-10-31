@@ -1,4 +1,9 @@
 {
     "lota.rift_of_the_fallen": "Rift of the Fallen",
-    "lota.rift_of_the_fallen.fail.returned": "The Pearl returns with the Challenge unfinished, alongside a curse."
+    "lota.rift_of_the_fallen.fail.returned": "The Pearl returns with the Challenge unfinished, alongside a curse.",
+    "lota.rift_of_the_frozen": "Rift of the Frozen",
+    "lota.rift_of_the_frozen.fail.returned": "The Pearl returns with the Challenge unfinished, alongside a curse.",
+    "lota.rift_of_the_feast": "Rift of the Feast",
+    "lota.rift_of_the_feast.fail.returned": "The Pearl returns with the Challenge unfinished, alongside a curse.",
+    "lota.rift_of_the_frozen.fail.chilled": "Krampus claims your Warmth for himself."
 }

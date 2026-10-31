@@ -1,0 +1,130 @@
+{
+  "size": "small",
+  "color": "#2E5E7E",
+  "waves": [
+    {
+      "entities": [
+        {
+          "entity": "minecraft:zombie",
+          "count": 5,
+          "nbt": "{IsBaby:1b, CustomName:'\"Naughty Child\"'}",
+          "modifiers": [{ "type": "gateways:gear_set", "gear_set": "lota:krampus_children" }]
+        },
+        {
+          "entity": "born_in_chaos_v1:baby_skeleton", "count":5
+        },
+        {
+          "entity": "tinyskeletons:baby_stray", "count":5
+        },
+        {
+          "entity": "tinyskeletons:baby_bogged", "count":5
+        }
+      ],
+      "rewards": [
+        { "type": "gateways:experience", "experience": 20 },
+        { "type": "gateways:loot_table", "loot_table": "lota:gifts/candy_from_children", "rolls": 2,  "desc": "lota.krampus.reward.children"}
+      ],
+         "modifiers": [{ "type": "gateways:mob_effect", "effect": { "effect": "minecraft:fire_resistance" } }],
+      "max_wave_time": 2400,
+      "setup_time": 100
+    },
+    {
+      "entities": [
+        {
+          "entity": "minecraft:zombie",
+          "count": 3,
+          "nbt": "{IsBaby:1b, CustomName:'\"Naughty Child\"'}",
+          "modifiers": [{ "type": "gateways:gear_set", "gear_set": "lota:krampus_children" }]
+        },
+        {
+          "entity": "tinyskeletons:baby_stray", "count":3
+        },
+        {
+          "entity": "cataclysm:draugr", "count":1
+        },
+        {
+          "entity": "minecraft:stray", "count":3
+        }
+      ],
+      "rewards": [
+        { "type": "gateways:experience", "experience": 30 },
+        { "type": "gateways:stack", "stack": { "id": "born_in_chaos_v1:permafrost", "count": 1 } }
+      ],
+         "modifiers": [{ "type": "gateways:mob_effect", "effect": { "effect": "minecraft:fire_resistance" } }],
+      "max_wave_time": 2400,
+      "setup_time": 100
+    },
+    {
+      "entities": [
+        {
+          "entity": "minecraft:zombie",
+          "count": 3,
+          "nbt": "{IsBaby:1b, CustomName:'\"Naughty Child\"'}",
+          "modifiers": [{ "type": "gateways:gear_set", "gear_set": "lota:krampus_children" }]
+        },
+        {
+          "entity": "tinyskeletons:baby_stray", "count":3
+        },
+        {
+          "entity": "born_in_chaos_v1:krampus_henchman", "count":2
+        },
+        {
+          "entity": "cataclysm:royal_draugr", "count":1
+        }
+      ],
+      "rewards": [
+        { "type": "gateways:experience", "experience": 40 },
+        { "type": "gateways:stack", "stack": { "id": "born_in_chaos_v1:permafrost", "count": 1 } }
+      ],
+         "modifiers": [{ "type": "gateways:mob_effect", "effect": { "effect": "minecraft:fire_resistance" } }],
+      "max_wave_time": 2400,
+      "setup_time": 100
+    },
+    {
+      "entities": [
+        {
+          "entity": "minecraft:zombie",
+          "count": 10,
+          "nbt": "{IsBaby:1b, CustomName:'\"Naughty Child\"'}",
+          "modifiers": [{ "type": "gateways:gear_set", "gear_set": "lota:krampus_children" }]
+        },
+        {
+          "entity": "born_in_chaos_v1:baby_skeleton", "count":5
+        },
+        {
+          "entity": "tinyskeletons:baby_stray", "count":5
+        },
+        {
+          "entity": "tinyskeletons:baby_bogged", "count":5
+        },
+        {
+          "entity": "born_in_chaos_v1:krampus_henchman", "count":1
+        },
+        { "entity": "born_in_chaos_v1:spiritof_chaos", "count": 2}
+      ],
+      "rewards": [
+        { "type": "gateways:experience", "experience": 50 },
+        { "type": "gateways:stack", "stack": { "id": "born_in_chaos_v1:permafrost", "count": 1 } }
+      ],
+         "modifiers": [{ "type": "gateways:mob_effect", "effect": { "effect": "minecraft:fire_resistance" } }],
+      "max_wave_time": 2400,
+      "setup_time": 100
+    }
+  ],
+  "rewards": [
+    { "type": "gateways:stack", "stack": { "id": "minecraft:ender_pearl", "count": 1 } },
+    { "type": "gateways:summon", "entity": { "entity": "born_in_chaos_v1:krampus", "count": 1 } }
+  ],
+  "failures": [
+    { "type": "gateways:command", "command": "summon item ~ ~1 ~ {Item:{id:\"gateways:gate_pearl\",count:1,components:{\"gateways:gateway\":\"lota:rift_of_the_frozen\"}}}", "desc": "lota.rift_of_the_frozen.fail.returned" },
+    { "type": "gateways:mob_effect", "effect": "minecraft:slowness", "duration": 1200 },
+    { "type": "gateways:mob_effect", "effect": "minecraft:mining_fatigue", "duration": 1200 },
+    { "type": "gateways:mob_effect", "effect": "frostiful:frost_bite", "duration": 2400, "amplifier": 2 },
+    { "type": "gateways:command", "command": "thermoo temperature remove @a[distance=..32] 2000 active", "desc": "lota.rift_of_the_frozen.fail.chilled" }
+  ],
+  "rules": {
+    "leash_range": 32,
+    "allow_discarding": true,
+    "requires_nearby_player": true
+  }
+}
