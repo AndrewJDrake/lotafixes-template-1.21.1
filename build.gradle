@@ -32,6 +32,13 @@ repositories {
     maven { url = "https://maven.bawnorton.com/releases" }
 }
 
+exclusiveContent {
+    forRepository {
+        maven { url = "https://api.modrinth.com/maven"}
+    }
+    filter { includeGroup "maven.modrinth" }
+}
+
 base {
     archivesName = mod_id
 }
@@ -139,7 +146,6 @@ dependencies {
     // For more info:
     // http://www.gradle.org/docs/current/userguide/artifact_dependencies_tutorial.html
     // http://www.gradle.org/docs/current/userguide/dependency_management.html
-    dependencies {
     compileOnly(annotationProcessor("com.github.bawnorton.mixinsquared:mixinsquared-common:0.3.7"))
 
     jarJar(implementation("com.github.bawnorton.mixinsquared:mixinsquared-neoforge")) {
@@ -148,7 +154,15 @@ dependencies {
             prefer '0.3.7'
         }
     }
-}
+
+    implementation "maven.modrinth:simply-swords:${simplyswords_version}"
+    implementation "maven.modrinth:aether:${aether_version}"
+    implementation "maven.modrinth:deep-aether:${deep_aether_version}"
+    localRuntime "maven.modrinth:owo-lib:${owo_lib_version}"
+    localRuntime "maven.modrinth:terrablender:${terra_blender_version}"
+    localRuntime "maven.modrinth:fzzy-config:${fzzy_config_version}"
+    localRuntime "maven.modrinth:simply-tooltips:${simply_tooltips_version}"
+    localRuntime "maven.modrinth:architectury-api:${architectury_api_version}"
 }
 
 // This block of code expands all declared replace properties in the specified resource targets.

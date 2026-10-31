@@ -100,6 +100,26 @@ config="${mod_id}.mixins.json"
     ordering="AFTER"
     side="BOTH"
 
+[[dependencies.${mod_id}]]
+    modId="simplyswords"
+    type="required"
+    versionRange="*"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.${mod_id}]]
+    modId="aether"
+    type="required"
+    versionRange="*"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.${mod_id}]]
+    modId="deep_aether"
+    type="required"
+    versionRange="*"
+    ordering="AFTER"
+    side="BOTH"
 
 
 # Features are specific properties of the game environment, that you may want to declare you require. This example declares
