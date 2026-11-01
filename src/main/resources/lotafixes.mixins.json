@@ -2,7 +2,7 @@
   "required": true,
   "minVersion": "0.8",
   "package": "com.lota.fixes.mixin",
-  "plugin": "com.lota.fixes.LotaFixesMixinPlugin",
+  "plugin": "com.lota.fixes.LotaMixinPlugin",
   "compatibilityLevel": "JAVA_21",
   "mixins": ["IPContainerOpenersFix"],
   "injectors": { "defaultRequire": 1 }

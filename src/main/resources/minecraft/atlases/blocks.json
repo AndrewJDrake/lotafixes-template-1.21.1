@@ -1,0 +1,21 @@
+{
+  "sources": [
+    {
+      "type": "paletted_permutations",
+      "textures": [
+        "simplyswords:item/iron_longsword",
+        "simplyswords:item/iron_katana",
+        "simplyswords:item/iron_rapier"
+      ],
+      "palette_key": "lotafixes:palettes/iron_key",
+      "permutations": {
+        "skyroot": "lotafixes:palettes/skyroot",
+        "holystone": "lotafixes:palettes/holystone",
+        "zanite": "lotafixes:palettes/zanite",
+        "skyjade": "lotafixes:palettes/skyjade",
+        "gravitite": "lotafixes:palettes/gravitite",
+        "stratus": "lotafixes:palettes/stratus"
+      }
+    }
+  ]
+}

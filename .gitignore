@@ -40,3 +40,5 @@ run/
 **/src/generated/**/.cache/
 repo/
 !**/src/**/repo/
+
+Palette_Experiments/

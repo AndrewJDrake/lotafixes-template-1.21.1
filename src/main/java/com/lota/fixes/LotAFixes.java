@@ -30,6 +30,7 @@ import net.neoforged.neoforge.registries.DeferredBlock;
 import net.neoforged.neoforge.registries.DeferredHolder;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
+import com.lota.aetherweapons.AetherWeaponItems;
 
 // The value here should match an entry in the META-INF/neoforge.mods.toml file
 @Mod(LotAFixes.MODID)
@@ -42,7 +43,8 @@ public class LotAFixes {
     // The constructor for the mod class is the first code that is run when your mod is loaded.
     // FML will recognize some parameter types like IEventBus or ModContainer and pass them in automatically.
     public LotAFixes(IEventBus modEventBus, ModContainer modContainer) {
-
+        AetherWeaponItems.ITEMS.register(modEventBus);
+        NeoForge.EVENT_BUS.addListener(AetherWeaponItems::addToCreativeTabs);
     }
 
 }
