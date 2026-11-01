@@ -4,8 +4,20 @@
       "type": "paletted_permutations",
       "textures": [
         "simplyswords:item/iron_longsword",
+        "simplyswords:item/iron_twinblade",
+        "simplyswords:item/iron_rapier",
         "simplyswords:item/iron_katana",
-        "simplyswords:item/iron_rapier"
+        "simplyswords:item/iron_sai",
+        "simplyswords:item/iron_spear",
+        "simplyswords:item/iron_glaive",
+        "simplyswords:item/iron_warglaive",
+        "simplyswords:item/iron_cutlass",
+        "simplyswords:item/iron_claymore",
+        "simplyswords:item/iron_greathammer",
+        "simplyswords:item/iron_greataxe",
+        "simplyswords:item/iron_chakram",
+        "simplyswords:item/iron_scythe",
+        "simplyswords:item/iron_halberd"
       ],
       "palette_key": "lotafixes:palettes/iron_key",
       "permutations": {

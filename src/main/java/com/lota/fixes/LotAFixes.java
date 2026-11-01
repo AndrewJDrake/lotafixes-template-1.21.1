@@ -44,7 +44,7 @@ public class LotAFixes {
     // FML will recognize some parameter types like IEventBus or ModContainer and pass them in automatically.
     public LotAFixes(IEventBus modEventBus, ModContainer modContainer) {
         AetherWeaponItems.ITEMS.register(modEventBus);
-        NeoForge.EVENT_BUS.addListener(AetherWeaponItems::addToCreativeTabs);
+        modEventBus.addListener(AetherWeaponItems::addToCreativeTabs);
     }
 
 }
