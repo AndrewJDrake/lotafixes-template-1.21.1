@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "  M",
+    " H ",
+    "   "
+  ],
+  "key": {
+    "H": {
+      "item": "aether:skyroot_stick"
+    },
+    "M": {
+      "item": "aether:enchanted_gravitite"
+    }
+  },
+  "result": {
+    "id": "lotafixes:gravitite_sai",
+    "count": 1
+  }
+}

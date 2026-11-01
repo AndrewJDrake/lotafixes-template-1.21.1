@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "lotafixes:skyroot_claymore",
+    "lotafixes:holystone_claymore",
+    "lotafixes:zanite_claymore",
+    "lotafixes:skyjade_claymore",
+    "lotafixes:gravitite_claymore",
+    "lotafixes:stratus_claymore"
+  ]
+}

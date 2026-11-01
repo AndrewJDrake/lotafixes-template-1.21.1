@@ -1,0 +1,20 @@
+{
+  "replace": false,
+  "values": [
+    "lotafixes:zanite_longsword",
+    "lotafixes:zanite_twinblade",
+    "lotafixes:zanite_rapier",
+    "lotafixes:zanite_katana",
+    "lotafixes:zanite_sai",
+    "lotafixes:zanite_spear",
+    "lotafixes:zanite_glaive",
+    "lotafixes:zanite_warglaive",
+    "lotafixes:zanite_cutlass",
+    "lotafixes:zanite_claymore",
+    "lotafixes:zanite_greathammer",
+    "lotafixes:zanite_greataxe",
+    "lotafixes:zanite_chakram",
+    "lotafixes:zanite_scythe",
+    "lotafixes:zanite_halberd"
+  ]
+}

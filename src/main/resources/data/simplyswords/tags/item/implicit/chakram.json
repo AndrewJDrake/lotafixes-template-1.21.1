@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "lotafixes:skyroot_chakram",
+    "lotafixes:holystone_chakram",
+    "lotafixes:zanite_chakram",
+    "lotafixes:skyjade_chakram",
+    "lotafixes:gravitite_chakram",
+    "lotafixes:stratus_chakram"
+  ]
+}

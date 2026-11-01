@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "deep_aether:stratus_smithing_template"
+  },
+  "base": {
+    "item": "lotafixes:gravitite_greataxe"
+  },
+  "addition": {
+    "item": "deep_aether:stratus_ingot"
+  },
+  "result": {
+    "id": "lotafixes:stratus_greataxe"
+  }
+}

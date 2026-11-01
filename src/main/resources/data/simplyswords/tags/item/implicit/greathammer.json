@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "lotafixes:skyroot_greathammer",
+    "lotafixes:holystone_greathammer",
+    "lotafixes:zanite_greathammer",
+    "lotafixes:skyjade_greathammer",
+    "lotafixes:gravitite_greathammer",
+    "lotafixes:stratus_greathammer"
+  ]
+}

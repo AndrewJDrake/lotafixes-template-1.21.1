@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "MMM",
+    "NNN",
+    " H "
+  ],
+  "key": {
+    "H": {
+      "item": "aether:skyroot_stick"
+    },
+    "M": {
+      "item": "aether:skyroot_planks"
+    },
+    "N": {
+      "item": "aether:skyroot_planks"
+    }
+  },
+  "result": {
+    "id": "lotafixes:skyroot_greathammer",
+    "count": 1
+  }
+}

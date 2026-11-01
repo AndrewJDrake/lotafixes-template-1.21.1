@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    " N ",
+    "MHM",
+    "   "
+  ],
+  "key": {
+    "H": {
+      "item": "aether:skyroot_stick"
+    },
+    "M": {
+      "item": "aether:zanite_gemstone"
+    },
+    "N": {
+      "item": "minecraft:iron_nugget"
+    }
+  },
+  "result": {
+    "id": "lotafixes:zanite_warglaive",
+    "count": 1
+  }
+}

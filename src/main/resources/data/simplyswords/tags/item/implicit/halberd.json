@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "lotafixes:skyroot_halberd",
+    "lotafixes:holystone_halberd",
+    "lotafixes:zanite_halberd",
+    "lotafixes:skyjade_halberd",
+    "lotafixes:gravitite_halberd",
+    "lotafixes:stratus_halberd"
+  ]
+}

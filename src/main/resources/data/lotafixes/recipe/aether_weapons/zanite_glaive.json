@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "  M",
+    " HM",
+    "H  "
+  ],
+  "key": {
+    "H": {
+      "item": "aether:skyroot_stick"
+    },
+    "M": {
+      "item": "aether:zanite_gemstone"
+    }
+  },
+  "result": {
+    "id": "lotafixes:zanite_glaive",
+    "count": 1
+  }
+}

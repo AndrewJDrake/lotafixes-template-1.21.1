@@ -1,0 +1,20 @@
+{
+  "replace": false,
+  "values": [
+    "lotafixes:skyroot_longsword",
+    "lotafixes:skyroot_twinblade",
+    "lotafixes:skyroot_rapier",
+    "lotafixes:skyroot_katana",
+    "lotafixes:skyroot_sai",
+    "lotafixes:skyroot_spear",
+    "lotafixes:skyroot_glaive",
+    "lotafixes:skyroot_warglaive",
+    "lotafixes:skyroot_cutlass",
+    "lotafixes:skyroot_claymore",
+    "lotafixes:skyroot_greathammer",
+    "lotafixes:skyroot_greataxe",
+    "lotafixes:skyroot_chakram",
+    "lotafixes:skyroot_scythe",
+    "lotafixes:skyroot_halberd"
+  ]
+}

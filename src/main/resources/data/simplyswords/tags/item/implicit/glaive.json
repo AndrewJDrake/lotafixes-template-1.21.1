@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "lotafixes:skyroot_glaive",
+    "lotafixes:holystone_glaive",
+    "lotafixes:zanite_glaive",
+    "lotafixes:skyjade_glaive",
+    "lotafixes:gravitite_glaive",
+    "lotafixes:stratus_glaive"
+  ]
+}

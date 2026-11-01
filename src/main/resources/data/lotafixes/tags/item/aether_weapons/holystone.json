@@ -1,0 +1,20 @@
+{
+  "replace": false,
+  "values": [
+    "lotafixes:holystone_longsword",
+    "lotafixes:holystone_twinblade",
+    "lotafixes:holystone_rapier",
+    "lotafixes:holystone_katana",
+    "lotafixes:holystone_sai",
+    "lotafixes:holystone_spear",
+    "lotafixes:holystone_glaive",
+    "lotafixes:holystone_warglaive",
+    "lotafixes:holystone_cutlass",
+    "lotafixes:holystone_claymore",
+    "lotafixes:holystone_greathammer",
+    "lotafixes:holystone_greataxe",
+    "lotafixes:holystone_chakram",
+    "lotafixes:holystone_scythe",
+    "lotafixes:holystone_halberd"
+  ]
+}

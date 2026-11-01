@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "lotafixes:skyroot_spear",
+    "lotafixes:holystone_spear",
+    "lotafixes:zanite_spear",
+    "lotafixes:skyjade_spear",
+    "lotafixes:gravitite_spear",
+    "lotafixes:stratus_spear"
+  ]
+}

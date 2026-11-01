@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "lotafixes:skyroot_sai",
+    "lotafixes:holystone_sai",
+    "lotafixes:zanite_sai",
+    "lotafixes:skyjade_sai",
+    "lotafixes:gravitite_sai",
+    "lotafixes:stratus_sai"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "replace": false,
+  "values": [
+    "lotafixes:stratus_longsword",
+    "lotafixes:stratus_twinblade",
+    "lotafixes:stratus_rapier",
+    "lotafixes:stratus_katana",
+    "lotafixes:stratus_sai",
+    "lotafixes:stratus_spear",
+    "lotafixes:stratus_glaive",
+    "lotafixes:stratus_warglaive",
+    "lotafixes:stratus_cutlass",
+    "lotafixes:stratus_claymore",
+    "lotafixes:stratus_greathammer",
+    "lotafixes:stratus_greataxe",
+    "lotafixes:stratus_chakram",
+    "lotafixes:stratus_scythe",
+    "lotafixes:stratus_halberd"
+  ]
+}

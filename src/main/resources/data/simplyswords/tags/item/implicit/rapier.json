@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "lotafixes:skyroot_rapier",
+    "lotafixes:holystone_rapier",
+    "lotafixes:zanite_rapier",
+    "lotafixes:skyjade_rapier",
+    "lotafixes:gravitite_rapier",
+    "lotafixes:stratus_rapier"
+  ]
+}

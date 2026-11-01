@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "  M",
+    " HM",
+    "H  "
+  ],
+  "key": {
+    "H": {
+      "item": "aether:skyroot_stick"
+    },
+    "M": {
+      "item": "aether:holystone"
+    }
+  },
+  "result": {
+    "id": "lotafixes:holystone_glaive",
+    "count": 1
+  }
+}

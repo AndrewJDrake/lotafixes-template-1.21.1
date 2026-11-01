@@ -1,0 +1,29 @@
+{
+  "replace": false,
+  "values": [
+    "lotafixes:skyroot_rapier",
+    "lotafixes:skyroot_sai",
+    "lotafixes:skyroot_cutlass",
+    "lotafixes:skyroot_chakram",
+    "lotafixes:holystone_rapier",
+    "lotafixes:holystone_sai",
+    "lotafixes:holystone_cutlass",
+    "lotafixes:holystone_chakram",
+    "lotafixes:zanite_rapier",
+    "lotafixes:zanite_sai",
+    "lotafixes:zanite_cutlass",
+    "lotafixes:zanite_chakram",
+    "lotafixes:skyjade_rapier",
+    "lotafixes:skyjade_sai",
+    "lotafixes:skyjade_cutlass",
+    "lotafixes:skyjade_chakram",
+    "lotafixes:gravitite_rapier",
+    "lotafixes:gravitite_sai",
+    "lotafixes:gravitite_cutlass",
+    "lotafixes:gravitite_chakram",
+    "lotafixes:stratus_rapier",
+    "lotafixes:stratus_sai",
+    "lotafixes:stratus_cutlass",
+    "lotafixes:stratus_chakram"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "H  ",
+    " M ",
+    "  M"
+  ],
+  "key": {
+    "H": {
+      "item": "aether:skyroot_stick"
+    },
+    "M": {
+      "item": "deep_aether:skyjade"
+    }
+  },
+  "result": {
+    "id": "lotafixes:skyjade_longsword",
+    "count": 1
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "  M",
+    " H ",
+    "M  "
+  ],
+  "key": {
+    "H": {
+      "item": "aether:skyroot_stick"
+    },
+    "M": {
+      "item": "aether:holystone"
+    }
+  },
+  "result": {
+    "id": "lotafixes:holystone_twinblade",
+    "count": 1
+  }
+}

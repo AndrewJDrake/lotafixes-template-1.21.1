@@ -1,0 +1,20 @@
+{
+  "replace": false,
+  "values": [
+    "lotafixes:gravitite_longsword",
+    "lotafixes:gravitite_twinblade",
+    "lotafixes:gravitite_rapier",
+    "lotafixes:gravitite_katana",
+    "lotafixes:gravitite_sai",
+    "lotafixes:gravitite_spear",
+    "lotafixes:gravitite_glaive",
+    "lotafixes:gravitite_warglaive",
+    "lotafixes:gravitite_cutlass",
+    "lotafixes:gravitite_claymore",
+    "lotafixes:gravitite_greathammer",
+    "lotafixes:gravitite_greataxe",
+    "lotafixes:gravitite_chakram",
+    "lotafixes:gravitite_scythe",
+    "lotafixes:gravitite_halberd"
+  ]
+}

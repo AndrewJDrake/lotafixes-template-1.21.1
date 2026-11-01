@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "lotafixes:skyroot_longsword",
+    "lotafixes:holystone_longsword",
+    "lotafixes:zanite_longsword",
+    "lotafixes:skyjade_longsword",
+    "lotafixes:gravitite_longsword",
+    "lotafixes:stratus_longsword"
+  ]
+}

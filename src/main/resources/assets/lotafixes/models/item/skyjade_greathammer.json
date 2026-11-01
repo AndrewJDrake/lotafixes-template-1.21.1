@@ -1,6 +1,6 @@
 {
   "parent": "simplyswords:item/iron_greathammer",
   "textures": {
-    "layer0": "simplyswords:item/iron_greathammer_skyjade"
+    "texture": "simplyswords:item/iron_greathammer_skyjade"
   }
 }

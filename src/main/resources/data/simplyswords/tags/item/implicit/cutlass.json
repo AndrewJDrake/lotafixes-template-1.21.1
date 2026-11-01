@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "lotafixes:skyroot_cutlass",
+    "lotafixes:holystone_cutlass",
+    "lotafixes:zanite_cutlass",
+    "lotafixes:skyjade_cutlass",
+    "lotafixes:gravitite_cutlass",
+    "lotafixes:stratus_cutlass"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "NMN",
+    "M M",
+    "NHN"
+  ],
+  "key": {
+    "H": {
+      "item": "aether:skyroot_stick"
+    },
+    "M": {
+      "item": "aether:skyroot_planks"
+    },
+    "N": {
+      "item": "aether:skyroot_planks"
+    }
+  },
+  "result": {
+    "id": "lotafixes:skyroot_chakram",
+    "count": 1
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "lotafixes:skyroot_katana",
+    "lotafixes:holystone_katana",
+    "lotafixes:zanite_katana",
+    "lotafixes:skyjade_katana",
+    "lotafixes:gravitite_katana",
+    "lotafixes:stratus_katana"
+  ]
+}

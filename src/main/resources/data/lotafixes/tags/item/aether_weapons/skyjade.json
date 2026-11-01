@@ -1,0 +1,20 @@
+{
+  "replace": false,
+  "values": [
+    "lotafixes:skyjade_longsword",
+    "lotafixes:skyjade_twinblade",
+    "lotafixes:skyjade_rapier",
+    "lotafixes:skyjade_katana",
+    "lotafixes:skyjade_sai",
+    "lotafixes:skyjade_spear",
+    "lotafixes:skyjade_glaive",
+    "lotafixes:skyjade_warglaive",
+    "lotafixes:skyjade_cutlass",
+    "lotafixes:skyjade_claymore",
+    "lotafixes:skyjade_greathammer",
+    "lotafixes:skyjade_greataxe",
+    "lotafixes:skyjade_chakram",
+    "lotafixes:skyjade_scythe",
+    "lotafixes:skyjade_halberd"
+  ]
+}
