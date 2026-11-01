@@ -1,0 +1,6 @@
+{
+  "parent": "simplyswords:item/iron_katana",
+  "textures": {
+    "layer0": "simplyswords:item/iron_katana_skyroot"
+  }
+}

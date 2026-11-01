@@ -1,0 +1,6 @@
+{
+  "parent": "simplyswords:item/iron_greataxe",
+  "textures": {
+    "layer0": "simplyswords:item/iron_greataxe_holystone"
+  }
+}
