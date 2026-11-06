@@ -24,6 +24,10 @@
     "lotafixes:stratus_rapier",
     "lotafixes:stratus_sai",
     "lotafixes:stratus_cutlass",
-    "lotafixes:stratus_chakram"
+    "lotafixes:stratus_chakram",
+    "lotafixes:siftite_rapier",
+    "lotafixes:siftite_sai",
+    "lotafixes:siftite_cutlass",
+    "lotafixes:siftite_chakram"
   ]
 }

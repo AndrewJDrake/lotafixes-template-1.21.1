@@ -4,6 +4,6 @@
   "package": "com.lota.fixes.mixin",
   "plugin": "com.lota.fixes.LotaMixinPlugin",
   "compatibilityLevel": "JAVA_21",
-  "mixins": ["IPContainerOpenersFix"],
+  "mixins": ["IPContainerOpenersFix", "LilisUrnDeathFix"],
   "injectors": { "defaultRequire": 1 }
 }

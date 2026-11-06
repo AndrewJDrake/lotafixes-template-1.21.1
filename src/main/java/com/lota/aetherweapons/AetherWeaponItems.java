@@ -19,19 +19,21 @@ public final class AetherWeaponItems {
         new EnumMap<>(AetherMaterial.class);
 
     static {
-        for (AetherMaterial material : AetherMaterial.values())
-             {
-            Map<WeaponType, DeferredItem<Item>> byType = new EnumMap<>(WeaponType.class);
-            for (WeaponType type : WeaponType.values()) {
-                byType.put(type, ITEMS.register(material.id + "_" + type.id, () -> material.create(type,
-                        new Item.Properties().attributes(SwordItem.createAttributes(
-                                material.tier(),
-                                (int) (material.modifier() + type.damage()),
-                                type.speed())))));
-            }
-            WEAPONS.put(material, byType);
+    for (AetherMaterial material : AetherMaterial.values()) {
+        Map<WeaponType, DeferredItem<Item>> byType = new EnumMap<>(WeaponType.class);
+        for (WeaponType type : WeaponType.values()) {
+            byType.put(type, ITEMS.register(material.id + "_" + type.id, () -> {
+                Item.Properties props = new Item.Properties().attributes(SwordItem.createAttributes(
+                        material.tier(),
+                        (int) (material.modifier() + type.damage()),
+                        type.speed()));
+                if (material.fireResistant) props.fireResistant();
+                return material.create(type, props);
+            }));
         }
+        WEAPONS.put(material, byType);
     }
+}
 
     public static void addToCreativeTabs(BuildCreativeModeTabContentsEvent event) {
         if (event.getTabKey() == CreativeModeTabs.COMBAT) {

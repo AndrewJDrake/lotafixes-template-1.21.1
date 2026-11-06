@@ -1,0 +1,20 @@
+{
+  "replace": false,
+  "values": [
+    "lotafixes:siftite_longsword",
+    "lotafixes:siftite_twinblade",
+    "lotafixes:siftite_rapier",
+    "lotafixes:siftite_katana",
+    "lotafixes:siftite_sai",
+    "lotafixes:siftite_spear",
+    "lotafixes:siftite_glaive",
+    "lotafixes:siftite_warglaive",
+    "lotafixes:siftite_cutlass",
+    "lotafixes:siftite_claymore",
+    "lotafixes:siftite_greathammer",
+    "lotafixes:siftite_greataxe",
+    "lotafixes:siftite_chakram",
+    "lotafixes:siftite_scythe",
+    "lotafixes:siftite_halberd"
+  ]
+}

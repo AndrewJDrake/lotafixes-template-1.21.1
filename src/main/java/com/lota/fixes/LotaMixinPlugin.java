@@ -24,7 +24,11 @@ public class LotaMixinPlugin implements IMixinConfigPlugin {
         if (mixinClassName.endsWith(".IPContainerOpenersFix")) {
             return isLoaded("ip_aeronautics");
         }
+        if (mixinClassName.endsWith(".UrnDeathDisable")) {
+            return isLoaded("lilis_pottery");
+        }
         return true;
+        
     }
 
     private static boolean isLoaded(String modId) {

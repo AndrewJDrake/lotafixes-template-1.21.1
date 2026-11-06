@@ -30,6 +30,11 @@
     "lotafixes:stratus_twinblade",
     "lotafixes:stratus_katana",
     "lotafixes:stratus_spear",
-    "lotafixes:stratus_warglaive"
+    "lotafixes:stratus_warglaive",
+    "lotafixes:siftite_longsword",
+    "lotafixes:siftite_twinblade",
+    "lotafixes:siftite_katana",
+    "lotafixes:siftite_spear",
+    "lotafixes:siftite_warglaive"
   ]
 }

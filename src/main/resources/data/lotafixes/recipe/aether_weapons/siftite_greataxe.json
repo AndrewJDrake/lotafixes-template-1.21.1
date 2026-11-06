@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "the_sift:siftite_upgrade_smithing_template"
+  },
+  "base": {
+    "item": "simplyswords:netherite_greataxe"
+  },
+  "addition": {
+    "item": "the_sift:siftite_ingot"
+  },
+  "result": {
+    "id": "lotafixes:siftite_greataxe"
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "ingredients": {
+    "lotafixes:skyroot": {
+      "item": "aether:skyroot_planks"
+    },
+    "lotafixes:holystone": {
+      "item": "aether:holystone"
+    },
+    "lotafixes:zanite": {
+      "item": "aether:zanite_gemstone"
+    },
+    "lotafixes:skyjade": {
+      "item": "deep_aether:skyjade"
+    },
+    "lotafixes:gravitite": {
+      "item": "aether:enchanted_gravitite"
+    },
+    "lotafixes:stratus": {
+      "item": "deep_aether:stratus_ingot"
+    },
+    "lotafixes:siftite": {
+      "item": "the_sift:siftite_ingot"
+    }
+  },
+  "modifiers": {
+    "lotafixes:skyroot": {
+      "modulargolems:speed_up": 1
+    },
+    "lotafixes:holystone": {
+      "modulargolems:regeneration_up": 1
+    },
+    "lotafixes:zanite": {
+      "modulargolems:damage_up": 1
+    },
+    "lotafixes:skyjade": {
+      "modulargolems:speed_up": 1
+    },
+    "lotafixes:gravitite": {
+      "modulargolems:float": 1
+    },
+    "lotafixes:stratus": {
+      "modulargolems:float": 1,
+      "modulargolems:fire_immune": 1
+    },
+    "lotafixes:siftite": {
+      "modulargolems:fire_immune": 1,
+      "modulargolems:recycle": 1
+    }
+  },
+  "partLimitation": {},
+  "repairIngredients": {
+    "lotafixes:skyroot": {
+      "item": "aether:skyroot_planks"
+    },
+    "lotafixes:holystone": {
+      "item": "aether:holystone"
+    },
+    "lotafixes:zanite": {
+      "item": "aether:zanite_gemstone"
+    },
+    "lotafixes:skyjade": {
+      "item": "deep_aether:skyjade"
+    },
+    "lotafixes:gravitite": {
+      "item": "aether:enchanted_gravitite"
+    },
+    "lotafixes:stratus": {
+      "item": "deep_aether:stratus_ingot"
+    },
+    "lotafixes:siftite": {
+      "item": "the_sift:siftite_ingot"
+    }
+  },
+  "stats": {
+    "lotafixes:skyroot": {
+      "modulargolems:max_health": 40.0,
+      "modulargolems:attack": 8.0
+    },
+    "lotafixes:holystone": {
+      "modulargolems:max_health": 70.0,
+      "modulargolems:attack": 10.0
+    },
+    "lotafixes:zanite": {
+      "modulargolems:max_health": 100.0,
+      "modulargolems:attack": 15.0
+    },
+    "lotafixes:skyjade": {
+      "modulargolems:max_health": 60.0,
+      "modulargolems:attack": 12.0,
+      "modulargolems:weight": 0.2
+    },
+    "lotafixes:gravitite": {
+      "modulargolems:max_health": 200.0,
+      "modulargolems:attack": 22.0
+    },
+    "lotafixes:stratus": {
+      "modulargolems:max_health": 300.0,
+      "modulargolems:attack": 30.0,
+      "modulargolems:weight": -0.4,
+      "modulargolems:sweep": 2.0
+    },
+    "lotafixes:siftite": {
+      "modulargolems:max_health": 350.0,
+      "modulargolems:attack": 35.0,
+      "modulargolems:weight": -0.4,
+      "modulargolems:sweep": 2.0,
+      "modulargolems:knockback_resistance": 1.0
+    }
+  }
+}
